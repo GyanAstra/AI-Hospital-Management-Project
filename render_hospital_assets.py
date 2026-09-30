@@ -224,5 +224,7 @@ def generate_block_diagram():
 if __name__ == "__main__":
     print("[*] Generating Hospital Management System Assets...")
     generate_all_equations()
-    generate_block_diagram()
+    # Note: Block diagram is generated via Gemini Image Generation (graphs/block_diagram.png)
+    # Uncomment below only if you wish to regenerate the matplotlib fallback:
+    # generate_block_diagram()
     print("[OK] All assets generated successfully!")
